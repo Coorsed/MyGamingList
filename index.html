@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gaming List</title>
+    <!-- links -->
+    <link rel="icon" href="img\navbar\ico.ico" type="image/x-icon" alt="favicon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
+    <!-- links -->
+</head>
+
+<body>
+    <!-- INICIO MAQUETADO -->
+    <div class="maquetado">
+
+      <!-- INICIO HEADER!! -->
+      <header class="header">
+
+        <div class="logo">
+          <a href="../../index.html"><img src="../../img\navbar\icono_nav.png" alt="icono navbar"></a>
+        </div>
+
+        <nav class="nav">
+
+            <ul class="links">
+
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../../pages/Juegos/Biblioteca.html">Biblioteca</a></li>
+                <li><a href="../../pages/Foro/foro.html">Foro</a></li>
+                <li><a href="../../pages/Noticias/Todas.html">Noticias</a></li>
+                <li><a href="../../pages/reviews/Todas.html">Reviews</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="perfil">
+          <a href="../../pages/Perfiles/Coorsed.html"><img src="../../img/perfil/Coorsed/kaneki.jpg" alt="icono navbar"></a>
+        </div>
+
+
+    </header>
+  <!-- FIN HEADER -->
+
+
+      <!-- COMIENZA MID-PAGE -->
+      <main class="main">
+
+        <!-- COMIENZA PRINCIPAL -->
+        <div class="principal">
+
+
+          <!-- COMIENZA CAROUSEL -->
+          <div class="categoria">
+            <p>Juegos populares <span class="categoria-colorear">></span></p>
+            <div class="barra-busqueda">
+              <input type="text" class="input-busqueda" placeholder="Buscar por nombre...">
+              <button type="submit" class="boton-busqueda"><img src="img\iconos/Barra busqueda/busqueda.png" alt="lupita"></button>
+            </div>
+          </div>
+          <div class="carousel">
+
+            
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <a class="carousel-item active" href="pages/Juegos/re4.html">
+                    <img src="img/Principal/Carousel-inicio/banner.png" class="d-block w-100" alt="assetto">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Acompaña a Lion en su mision.</h5>
+                        <p>Adentrate en el poblado y desvela el misterio.</p>
+                    </div>
+                  </a>
+                  <a class="carousel-item" href="pages/Juegos/Elden-ring.html">
+                    <img src="img/Principal/Carousel-inicio/elden ring.jpg" class="d-block w-100" alt="elden ring">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sinluz, un largo camino te aguarda.</h5>
+                        <p>Explora las tierras medias para cumplir tu misión.</p>
+                    </div>
+                  </a>
+                  <a class="carousel-item" href="pages/Juegos/crash.html">
+                    <img src="img/Principal/Carousel-inicio/nsane-trilogy-banner.jpg" class="d-block w-100" alt="genshin impact">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>¡Vuelve a tu niñez!</h5>
+                        <p>¡Rejuega los 3 primeros Crash pero ahora en 4k!</p>
+                    </div>
+                  </a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          </div>
+          <!-- FIN CAROUSEL -->
+
+          <!-- COMIENZA JUEGOS EN PROGRESO-->
+          <div class="en-progreso">
+            <div class="categoria">
+              <p>En progreso <span class="categoria-colorear">></span></p>
+            </div>
+
+            <div class="juegos-activos">
+              
+
+              <div class="juego"  onclick="window.location.href='pages/Juegos/crash.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/Crash/crash.jpg" alt="crash">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>Crash Nsane trilogy</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>60%</p>
+                    <div class="porcentaje" style="--wth:60%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 12 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">42,5 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>Elden Ring</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>80%</p>
+                    <div class="porcentaje" style="--wth:80%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 5 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">78,2 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/half.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/Half Life 2/half-life.jpg" alt="half">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>Half Life: episodio 2</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>90%</p>
+                    <div class="porcentaje" style="--wth:90%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 1304 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">30,3 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/re4.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/RE4 Remake/resident.jpg" alt="re4">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>Resident Evil 4 remake</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>100%</p>
+                    <div class="porcentaje" style="--wth:100%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 90 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">50,4 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/sekiro.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/Sekiro/sekiro.jpg" alt="sekiro">
+                </div>
+                <div class="display-juego">
+
+                  <div class="titulo-juego">
+                    <h1>Sekiro: shadow die twice</h1>
+                  </div>
+
+                  <div class="progreso">
+                    <p><span>Progreso:</span>4%</p>
+                    <div class="porcentaje" style="--wth:4%"></div>
+                  </div>
+
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 300 dias</span></p>
+                  </div>
+
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">1,2 hora</span></p>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/spidy.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca//Spiderman/spider.jpg" alt="spidy">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>Spider-man Miles Morales</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>45%</p>
+                    <div class="porcentaje" style="--wth:45%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 20 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">14 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juego" onclick="window.location.href='pages/Juegos/tlou.html'">
+                <div class="imagen-juego">
+                  <img src="img/Biblioteca/TLOU/tlou.jpg" alt="tlou">
+                </div>
+                <div class="display-juego">
+                  <div class="titulo-juego">
+                    <h1>The last of us</h1>
+                  </div>
+                  <div class="progreso">
+                    <p><span>Progreso:</span>64%</p>
+                    <div class="porcentaje" style="--wth:64%"></div>
+                  </div>
+                  <div class="ultima-vez">
+                    <p>Última vez: <span class="categoria-colorear">Hace 254 dias</span></p>
+                    
+                  </div>
+                  <div class="tiempo-jugado">
+                    <p>Tiempo jugado: <span class="categoria-colorear">36,4 horas</span></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>  <!-- FIN  JUEGOS EN PROGRESO-->
+            
+          <!--INICIO PARTE INFERIOR -->
+          <div class="inferior">
+
+            <!-- INICIO MITAD 1 -->
+            <div class="mitad1">
+
+              <div class="categoria">
+                <p>Actividades <span class="categoria-colorear">></span></p>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Mongus.html">Mongus</a>!</h1>
+                  <h2>Mohg, el Augurio<h2>
+                  <p>Derrota a Mogh, el Augurio</p>
+                </div>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>!</h1>
+                  <h2>Armas exterminadoras de dioses<h2>
+                  <p>Mejora un arma a su máximo nivel</p>
+                </div>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>!</h1>
+                  <h2>Restos cenicientos legendarios<h2>
+                  <p>Consigue todos los restos cenicientos legendarios</p>
+                </div>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>!</h1>
+                  <h2>Mesa Redonda<h2>
+                  <p>Llega a la Mesa Redonda</p>
+                </div>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>!</h1>
+                  <h2>Gran Runa<h2>
+                  <p>Recupera el poder de una Gran Runa</p>
+                </div>
+              </div>
+
+              <div class="actividad" onclick="window.location.href='pages/Juegos/Elden-ring.html'">
+                <div class="imagen-actividad">
+                  <img src="img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                </div>
+
+                <div class="texto-actividad">
+                  <h1>¡NUEVO LOGRO DE <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>!</h1>
+                  <h2>Portador de esquirlas Godrick<h2>
+                  <p>Derrota al portador de esquirlas</p>
+                </div>
+              </div>
+              
+
+
+            </div>
+            <!-- FINAL MITAD 1 -->
+
+            <!-- COMIENZA MITAD 2 -->
+            <div class="mitad2">
+
+              <!-- COMIENZA ACTIVIDADES FORO -->
+
+              <div class="actividades-foro">
+
+                <div class="categoria">
+                  <p><a href="pages\Foro\foro.html">Actividades del foro</a> <span class="categoria-colorear">></span></p>
+                </div>
+
+                <!-- COMIENZA PUBLICACION EN FORO -->
+                <div class="foro" onclick="window.location.href='pages/Foro/Hilo-pcs.html'">                
+
+                      <!-- COMIENZA TEXTO PUBLICACION -->
+                      <section class="texto">
+                          <H1>[ABRO HILO] ¡PRESENTACIONES DE PC!</H1>
+                          <h2>¡Hola gente! Les presento a "la maleducada":<h2>
+                          <p>
+                            Ryzen 7 5800x<br>
+                            16gb ram ddr4 Ballistix 3200mhz<br>
+                            RTX 2060 SUPER de Palit<br>
+                            Custom water cooler loop (diy)<br>
+                            Aerocool cylon 700w<br>
+                            Compartan su build! ;)
+                          </p>                    
+                       </section>
+
+                    <!-- FINAL TEXTO PUBLICACION -->
+                  
+                      <!-- COMIENZA PUBLICADOR -->
+                      <section class="publicador">
+                          <div>
+                            <img src="img/perfil/Coorsed/kaneki.jpg" alt="icono perfil">
+                            <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a>
+                          </div>
+                            <p class="gris">hace 7 minutos</p>
+
+                      </section>
+                    <!-- FINALIZA PUBLICADOR -->
+                  
+                </div>
+                <!-- FIN PUBLICACION EN FORO -->
+
+                <!-- COMIENZA PUBLICACION EN FORO -->
+                <div class="foro" onclick="window.location.href='pages/Foro/Hilo-pcs.html'">
+
+                  <!-- COMIENZA TEXTO PUBLICACION -->
+                  <section class="texto">
+                      <H1>[HILO] ¡PRESENTACIONES DE PC!</H1>
+                      <h2>La mecha:<h2>
+                      <p>
+                        i7 4790<br>
+                        16gb ram ddr3 Vengeance 2400mhz<br>
+                        GTX 1650 de Asus<br>
+                        Cooler Nisuta 120mm<br>
+                        LNZ ZX 650w<br>
+                        Sigan el hilo!!!
+                      </p>
+                  </section>
+                  <!-- FINAL TEXTO PUBLICACION -->
+
+                  <!-- COMIENZA PUBLICADOR -->
+                  <section class="publicador">
+                    <div>
+                      <img src="img\perfil/Mongus/tomoyo.jpg" alt="icono perfil">
+                      <a class="usuario" href="pages\Perfiles\Mongus.html" >Mongus</a>
+                    </div>
+                      <p class="gris">hace 3 minutos</p>
+
+                </section>
+                  <!-- FINALIZA PUBLICADOR -->
+
+                </div>
+                <!-- FIN PUBLICACION EN FORO -->
+
+              </div>
+              <!-- FIN ACTIVIDADES FORO -->
+
+              <div class="categoria" id="reseña">
+                <p><a href="pages\reviews\Todas.html">Reseñas recientes </a><span class="categoria-colorear">></span></p>
+              </div>
+
+              <!-- COMIENZA RESEÑAS -->
+              <div class="reseñas">
+
+                <!-- COMIENZA RESEÑA -->
+                
+                <div class="reseña" onclick="window.location.href='pages/reviews/elden-ring.html'">
+                  
+                    <div class="imagen-review">
+                    <img src="img\reseñas/elden ring/elden-ring.jpg" alt="elden">
+                    </div>
+
+                    <div class="texto-review">
+                      <h1>Reseña de Elden Ring de <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a></h1>
+                      <p>Review/Critica a Elden Ring</p>
+                    </div>
+                  
+                </div>
+                <!-- FIN RESEÑA -->
+                
+                <!-- COMIENZA RESEÑA -->
+                <div class="reseña" onclick="window.location.href='pages/reviews/re4.html'">
+
+                  <div class="imagen-review">
+                  <img src="img\reseñas/RE4/banner.png" alt="elden" >
+                  </div>
+
+                  <div class="texto-review">
+                    <h1>Reseña de Residen Evil 4 Remake de <a class="usuario" href="pages\Perfiles\Coorsed.html">Coorsed</a></h1>
+                    <p>Review/Critica a RE4 </p>
+                  </div>
+                  
+                </div>
+                <!-- FIN RESEÑA -->               
+
+
+              </div>
+              <!-- FIN RESEÑAS -->
+
+            </div>
+            <!-- FIN MITAD 2 -->
+
+          </div>
+          <!-- FIN PARTE INFERIOR -->
+
+          
+        </div>
+        <!-- FIN PRINCIPAL -->
+ 
+        <!-- COMIENZA ASIDE -->
+        <aside class="aside">
+
+          <!-- COMIENZA TITULO -->
+          <a class="titulo" href="../../pages/Noticias/Todas.html">
+            <p>Últimas noticias</p>
+          </a>
+          <!-- FIN TITULO -->
+
+          <!-- COMIENZA LISTA NOTICIAS -->
+          <ul class="noticias">
+
+            <!-- COMIENZA NOTICIA -->
+              <li>
+                <a href="../../pages/Noticias/Noticia1.html">  
+                  <!-- COMIENZA IMAGEN NOTICIA-->
+                  <div class="imagen">
+                    <img src="../../img/noticias/noticia jjk/noticia.jpg" alt="noticia gojo">
+                  </div>
+                  <!-- FIN IMAGEN NOTICIA -->
+                
+                  <!-- COMIENZA TEXTO NOTICIA -->
+                  
+                  <div class="noticia">
+                    <p>¡Jujutsu kaisen rompe el internet de nuevo!</p>
+                  </div>
+                  <!-- FIN TEXTO NOTICIA -->
+                </a>
+
+
+              </li>
+              <!-- FIN NOTICIA -->
+
+              <!-- COMIENZA NOTICIA -->
+              <li>
+                <a href="../../pages/Noticias/Noticia2.html">
+
+                  <!-- COMIENZA IMAGEN NOTICIA-->
+                  <div class="imagen">
+                    <img src="../../img/noticias/noticia elden/noticia1.jpg" alt="noticia elden">
+                  </div>
+                  <!-- FIN IMAGEN NOTICIA -->
+                
+                  <!-- COMIENZA TEXTO NOTICIA -->
+                  <div class="noticia">
+                    <p>¡Se aproxima Shadow of the Erdtree! Estas son sus novedades.</p>
+                  </div>
+                  <!-- FIN TEXTO NOTICIA -->
+                </a>
+                
+              </li>
+              <!-- FIN NOTICIA -->
+
+              <!-- COMIENZA NOTICIA -->
+              <li>
+                <a href="../../pages/Noticias/Noticia3.html">
+                  <!-- COMIENZA IMAGEN NOTICIA-->
+                  <div class="imagen">
+                    <img src="../../img\noticias/noticia fortnite/noticia2.jpg" alt="noticia fortnite">
+                  </div>
+                  <!-- FIN IMAGEN NOTICIA -->
+                
+                  <!-- COMIENZA TEXTO NOTICIA -->
+                  <div class="noticia">
+                    <p>¡Unete a los Jedi esta temporada! Fortnite x Star Wars.</p>
+                  </div>
+                  <!-- FIN TEXTO NOTICIA -->
+                </a>
+              </li>
+              <!-- FIN NOTICIA -->
+
+              <!-- COMIENZA NOTICIA -->
+              <li>
+                <a href="../../pages/Noticias/Noticia4.html">
+                  <!-- COMIENZA IMAGEN NOTICIA-->
+                  <div class="imagen">
+                    <img src="../../img\noticias/noticia switch/noticia3.jpg" alt="noticia switch">
+                  </div>
+                  <!-- FIN IMAGEN NOTICIA -->
+                
+                  <!-- COMIENZA TEXTO NOTICIA -->
+                  <div class="noticia">
+                    <p>¡Presentacion Switch 2! Estas son sus especificaciones.</p>
+                  </div>
+                  <!-- FIN TEXTO NOTICIA -->
+                </a>
+              </li> 
+              <!-- FIN NOTICIA -->
+
+          </ul>
+          <!-- FIN LISTA NOTICIAS -->
+
+      </aside>
+      <!-- FIN ASIDE -->
+
+      </main>
+      <!-- FIN MID-PAGE -->
+
+
+      <!-- INICIO FOOTER  -->
+      <footer  class="footer">
+
+        <ul class="redes">
+
+        <li><a href="../../pages/redes/twitter.html" target="_blank" ><img src="../../img/iconos/Footer/tw.png" alt="tw"></a></li>
+        <li><a href="../../pages\redes\Facebook.html" target="_blank" ><img src="../../img\iconos/Footer/fb.png" alt="fb"></a></li>
+        <li><a href="../../pages\redes\instagram.html" target="_blank" ><img src="../../img\iconos/Footer/ig.png" alt="ig"></a></li>
+
+        </ul>
+
+      </footer>
+      <!-- FIN FOOTER -->
+
+
+    </div>
+    <!-- FIN MAQUETADO -->
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- scripts  -->
+
+</body>
+</html>

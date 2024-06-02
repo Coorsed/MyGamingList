@@ -67,6 +67,7 @@ body{
             object-fit: cover;
         }
 
+
         .header .links{
             list-style: none;
             margin-top: 20px;
@@ -78,7 +79,7 @@ body{
         }
 
         .header .links a{
-            font-size: 700;
+            
             color: rgb(255, 255, 240);
             transition: all 0.3s; 
         }
@@ -88,7 +89,6 @@ body{
 
         .header .perfil{
             cursor: pointer;
-            padding: 9px 25px;
             border:none;
             display: flex;
 
@@ -100,6 +100,7 @@ body{
             object-fit: cover;
             border-radius: 50%;
         }
+
 
         .main{
             color: #fff;

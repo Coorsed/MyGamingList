@@ -39,65 +39,66 @@ body{
         min-height: 100vh;
     }
 
-        .header{
-            background-color: #181a33 ;
-            display: flex;
-            width: 100% ;
-            align-items:center;
-            height: 85px;
-            padding: 0% 10%;
-            box-shadow: 0px 0px 15px 2px #000000c2;
-            position: sticky;
-            top:0;
-            flex:1;
-            z-index: 100;
-            justify-content:flex-end;
+    .header{
+        background-color: #181a33 ;
+        display: flex;
+        width: 100% ;
+        align-items:center;
+        height: 85px;
+        padding: 0% 10%;
+        box-shadow: 0px 0px 15px 2px #000000c2;
+        position: sticky;
+        top:0;
+        flex:1;
+        z-index: 100;
+        justify-content:flex-end;
+    }
+
+        .header .logo{
+            cursor: pointer;
+            margin-right: auto;
         }
 
-            .header .logo{
-                cursor: pointer;
-                margin-right: auto;
-            }
+        .header .logo img{
+            height: 70px;
+            width: 70px;
+            object-fit: cover;
+        }
 
-            .header .logo img{
-                height: 70px;
-                width: 70px;
-                object-fit: cover;
-            }
 
-            .header .links{
-                list-style: none;
-                margin-top: 20px;
-            }
+        .header .links{
+            list-style: none;
+            margin-top: 20px;
+        }
 
-            .header .links li{
-                display: inline-block;
-                padding: 0px 20px;
-            }
+        .header .links li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
 
-            .header .links a{
-                font-size: 700;
-                color: rgb(255, 255, 240);
-                transition: all 0.3s; 
-            }
-            .header .links a:hover{
-                color: gray;
-            }
+        .header .links a{
+            
+            color: rgb(255, 255, 240);
+            transition: all 0.3s; 
+        }
+        .header .links a:hover{
+            color: gray;
+        }
 
-            .header .perfil{
-                cursor: pointer;
-                padding: 9px 25px;
-                border:none;
-                display: flex;
+        .header .perfil{
+            cursor: pointer;
+            border:none;
+            display: flex;
 
-            }
+        }
 
-            .header .perfil img{
-                height: 70px;
-                width: 70px;
-                object-fit: cover;
-                border-radius: 50%;
-            }
+        .header .perfil img{
+            height: 70px;
+            width: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
         
         
 

@@ -30,12 +30,14 @@ a p:hover{
 body{
     background: linear-gradient(135deg, #26294c 30%, #181a33 70%);
     background-repeat: no-repeat; 
+    min-height: 100vh;
+    width: 100%;
 }
 
     .maquetado{
         display: grid;
         grid-template-rows: auto 1fr auto;
-        min-height: 100vh;
+
     }
 
     .header{

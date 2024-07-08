@@ -1,0 +1,47 @@
+{%  extends "core/base.html" %}
+
+{% block title %}Noticias{% endblock %}
+
+{% block cssExtra %}
+<link rel="stylesheet" type="text/css" href="../static/core/css/noticias/todas.css">
+{% endblock %}
+
+
+{% block content%}
+<div class="maquetado">
+        
+        <!-- COMIENZA MAIN -->
+        <main class="main">
+
+            <div class="bienvenida">
+
+                <H1>Todas las noticias <span class="gris">></span></H1>
+
+            </div>
+
+            <div class="box-total">
+
+                {%for project in projects %}
+
+                    <a href="{{project.link}}">
+                        <div class="noticia">
+                            <div class="fondo"><img class="background" src="{{project.image.url}}" alt="fondo noticia"></div>
+                            <div class="sombra"></div>
+
+                            <div class="texto">
+                                <div class="titular">{{project.title}}</div>
+                                <div class="gris">{{project.created}}</div>
+                            </div>       
+                        </div>
+                    </a>
+
+                {% endfor %}
+            </div>
+
+        
+         <!-- FIN PRINCIPAL -->
+
+    </main>
+    <!-- FIN MAIN -->
+</div>
+{% endblock %}

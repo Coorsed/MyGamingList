@@ -1,0 +1,179 @@
+{%  extends "core/base.html" %}
+
+{% block title %}Foro{% endblock %}
+
+{% block cssExtra %}
+<link rel="stylesheet" type="text/css" href="../static\core\css\Foro/foro.css">
+{% endblock %}
+
+{% block content%}
+
+
+<body>
+    <!-- INICIO MAQUETADO -->
+  <div class="maquetado">
+
+
+        <!-- COMIENZA MAIN -->
+    <main class="main">
+            
+      <!-- COMIENZA PRINCIPAL -->
+      <div class="principal"> 
+
+                <div class="bienvenida">
+
+                    <H1>¡Bienvenidos al foro de MyGamingList!</H1>
+                    <h2>Aquí podras realizar desde preguntas, crear guias o hacer reviews hasta incluso crear torneos o comunidades.</h2>
+
+                    <p>
+                        Antes de empezar siempre son buenas leer las recomendaciones.<br><br>
+                        ¡Busca antes de crear! <span class="gris">¡Que mejor que ante una duda encontrar un foro ya resuelto!</span><br> <br>
+                        ¡No pierdas tu tiempo! <span class="gris">¡Evita pelear con otros usuarios!</span><br><br>
+                        ¡Crea una comunidad! <span class="gris">¡Interactua con otros usuarios y que sea mas divertido para todos!</span>
+                    </p>
+
+                </div>
+
+                <div class="box-total">
+                    
+                    <div class="box-top">
+                        <div>Recientes</div>
+
+                        <div class="barra-busqueda">
+                            <input type="text" class="input-busqueda" placeholder="Buscar por nombre...">
+                            <button type="submit" class="boton-busqueda"><img src="../../static/core/img\iconos/Barra busqueda/busqueda.png" alt="lupita"></button>
+                          </div>
+                    </div>
+
+                    <div class="box-guia">
+                        <div class="gris" id="nombre">Nombre</div>
+                        <div class="gris" id="tiempo">Tiempo</div>
+                        <div class="gris" id="creador">Creador</div>
+                    </div>
+
+
+
+                    <div class="box-foros">
+                        
+                        
+                        <div class="foro" onclick="window.location.href='Hilo-pcs.html';" style="cursor: pointer;">
+                            <div class="titulo-foro" id="nombre">[ABRO HILO] ¡PRESENTACIONES DE PC!</div>
+                            <div class="hora-foro" id="tiempo">Hace 7 min</div>
+                            <div class="creador" id="creador"><a class="usuario" href="../Perfiles/Coorsed.html">Coorsed</a></div>
+                        </div>
+
+                        
+                        
+
+                    </div>
+
+
+                </div>
+
+      </div>
+      <!-- FIN PRINCIPAL -->
+            
+      <!-- COMIENZA ASIDE -->
+      <aside class="aside">
+
+        <!-- COMIENZA TITULO -->
+        <a class="titulo" href="../../pages/Noticias/Todas.html">
+          <p>Últimas noticias</p>
+        </a>
+        <!-- FIN TITULO -->
+
+        <!-- COMIENZA LISTA NOTICIAS -->
+        <ul class="noticias">
+
+          <!-- COMIENZA NOTICIA -->
+            <li>
+              <a href="../../pages/Noticias/Noticia1.html">  
+                <!-- COMIENZA IMAGEN NOTICIA-->
+                <div class="imagen">
+                  <img src="../../static/core/img/noticias/noticia jjk/noticia.jpg" alt="noticia gojo">
+                </div>
+                <!-- FIN IMAGEN NOTICIA -->
+              
+                <!-- COMIENZA TEXTO NOTICIA -->
+                
+                <div class="noticia">
+                  <p>¡Jujutsu kaisen rompe el internet de nuevo!</p>
+                </div>
+                <!-- FIN TEXTO NOTICIA -->
+              </a>
+
+
+            </li>
+            <!-- FIN NOTICIA -->
+
+            <!-- COMIENZA NOTICIA -->
+            <li>
+              <a href="../../pages/Noticias/Noticia2.html">
+
+                <!-- COMIENZA IMAGEN NOTICIA-->
+                <div class="imagen">
+                  <img src="../../static/core/img/noticias/noticia elden/noticia1.jpg" alt="noticia elden">
+                </div>
+                <!-- FIN IMAGEN NOTICIA -->
+              
+                <!-- COMIENZA TEXTO NOTICIA -->
+                <div class="noticia">
+                  <p>¡Se aproxima Shadow of the Erdtree! Estas son sus novedades.</p>
+                </div>
+                <!-- FIN TEXTO NOTICIA -->
+              </a>
+              
+            </li>
+            <!-- FIN NOTICIA -->
+
+            <!-- COMIENZA NOTICIA -->
+            <li>
+              <a href="../../pages/Noticias/Noticia3.html">
+                <!-- COMIENZA IMAGEN NOTICIA-->
+                <div class="imagen">
+                  <img src="../../static/core/img\noticias/noticia fortnite/noticia2.jpg" alt="noticia fortnite">
+                </div>
+                <!-- FIN IMAGEN NOTICIA -->
+              
+                <!-- COMIENZA TEXTO NOTICIA -->
+                <div class="noticia">
+                  <p>¡Unete a los Jedi esta temporada! Fortnite x Star Wars.</p>
+                </div>
+                <!-- FIN TEXTO NOTICIA -->
+              </a>
+            </li>
+            <!-- FIN NOTICIA -->
+
+            <!-- COMIENZA NOTICIA -->
+            <li>
+              <a href="../../pages/Noticias/Noticia4.html">
+                <!-- COMIENZA IMAGEN NOTICIA-->
+                <div class="imagen">
+                  <img src="../../static/core/img\noticias/noticia switch/noticia3.jpg" alt="noticia switch">
+                </div>
+                <!-- FIN IMAGEN NOTICIA -->
+              
+                <!-- COMIENZA TEXTO NOTICIA -->
+                <div class="noticia">
+                  <p>¡Presentacion Switch 2! Estas son sus especificaciones.</p>
+                </div>
+                <!-- FIN TEXTO NOTICIA -->
+              </a>
+            </li> 
+            <!-- FIN NOTICIA -->
+
+        </ul>
+        <!-- FIN LISTA NOTICIAS -->
+
+      </aside>
+    
+    
+    </main>
+    <!-- FIN MAIN -->
+    
+
+  </div>
+  <!-- FIN MAQUETADO -->
+
+</body>
+{%endblock%}

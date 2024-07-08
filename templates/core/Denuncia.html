@@ -1,0 +1,55 @@
+{%  extends "core/base.html" %}
+
+{% block content%}
+
+
+<body>
+      <!-- INICIO MAQUETADO -->
+    <div class="maquetado">
+
+        <main>
+            <div class="box-formulario">
+                <h2>Report a <span class="usuario">Mongus</span></h2>
+                
+                <br>
+                
+                <form id="formulario">
+                    <p>Motivo de su report:</p>
+                    <select name="seleccion" required>
+                        <p>Motivo de su report</p>
+                        <option value="">Selecciona una opción...</option>
+                        <option value="opcion1">Cheats</option>
+                        <option value="opcion2">Perfil falso</option>
+                        <option value="opcion3">Toxicidad</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="opcion1"><input type="checkbox" > ¿Bloquear al usuario?</label>
+                    <br>
+                    <label for="opcion2"><input type="checkbox"> ¿Conoce al usuario?</label>
+                    <br>
+                    <label for="opcion3"><input type="checkbox"> ¿Denuncia anonima?</label>
+                    <br>
+                    <label for="opcion4"><input type="checkbox"> ¿Desea poder seguir viendo su perfil?</label>
+                    <br>
+                    <label for="opcion5"><input type="checkbox" required> ¿Su denuncia es real?<span class="gris"> (Si no lo es usted tendra consecuencias)</span></label>
+                    <br>
+                    <br>
+                    <p>Adjunte alguna prueba en caso de tener:</p>
+                    <div id="drop_zone">¡Sueltalos aquí!</div>
+
+
+
+                    <a id="submit-wrapper" href="../../index.html">
+                        <input type="submit" value="Enviar">
+                    </a>
+                </form>
+            </div>
+        </main>    
+
+     </div>
+    <!-- FIN MAQUETADO -->
+ <script src="../../static/core/Js/Denuncia.js"></script>
+</body>
+{%endblock%}

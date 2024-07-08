@@ -1,0 +1,69 @@
+{%  extends "core/base.html" %}
+
+{% block title %}Biblioteca{% endblock %}
+
+{% block cssExtra %}
+<link rel="stylesheet" type="text/css" href="../static\core\css\Reviews/todas-reviews.css">
+{% endblock %}
+
+{% block content%}
+
+
+<body>
+    <!-- INICIO MAQUETADO -->
+    <div class="maquetado">
+
+
+        <!-- COMIENZA MAIN -->
+        <main class="main">
+
+                <div class="bienvenida">
+
+                    <H1>Reviews <span class="gris">></span></H1>
+
+                </div>
+
+                <div class="box-total">
+                    <div class="reseñas">
+                        
+                        <div class="reseña" onclick="window.location.href='re4.html';" style="cursor: pointer;">
+                                <div class="imagen-review">
+                                    <img src="../../static/core/img/Biblioteca/RE4 Remake/resident.jpg" alt="Re4" >
+                                </div>
+                            
+                                <div class="texto-review">
+                                    
+                                    <h1>Reseña de Residen Evil 4 Remake de <a class="usuario" href="../../pages/Perfiles/Coorsed.html">Coorsed</a></h1>
+                                    <p>Review/Critica a RE4 Remake</p>
+                                </div> 
+                        </div>
+
+                        <div class="reseña" onclick="window.location.href='elden-ring.html';" style="cursor: pointer;">
+                                <div class="imagen-review">
+                                    <img src="../../static/core/img/Biblioteca/Elden Ring/elden.jpg" alt="elden">
+                                </div>
+
+                                <div class="texto-review">
+                                    <h1>Reseña de Elden Ring de <a class="usuario" href="../../pages/Perfiles/Coorsed.html">Coorsed</a></h1>
+                                    <p>Review/Critica a Elden Ring</p>
+                                </div>
+                        </div>
+                        
+                        
+                     
+                    </div>  
+                </div>
+
+            
+             <!-- FIN PRINCIPAL -->
+
+        </main>
+        <!-- FIN MAIN -->
+
+
+    </div>
+    <!-- FIN MAQUETADO -->
+
+</body>
+{%endblock%}
+          

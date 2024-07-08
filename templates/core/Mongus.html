@@ -1,0 +1,127 @@
+{%  extends "core/base.html" %}
+
+{% block content%}
+
+<body>
+    <!-- INICIO MAQUETADO -->
+    <div class="maquetado">
+
+      <!-- COMIENZA MID-PAGE -->
+
+
+
+        <main class="main">
+            <div class="cabecera">
+                <div class="imagen-perfil"><img src="../../static/core/img/perfil/Mongus/tomoyo.jpg" alt="Foto perfil"></div>
+                <div class="sombra"></div>
+                <div class="texto">
+                    <div class="usuario">Mongus</div>
+                    <div class="gris"><p>Licenciada en diseño visual y genshin player.</p></div>                  
+                </div>
+                <a class="denuncia" href="../Denuncia/Denuncia.html">
+                  <span>Report</span>
+                </a>
+            </div>
+
+            <div class="box-inferior">
+
+               <div class="box-biblioteca">
+                   <div class="en-progreso">
+                        <div class="categoria">
+                          <p>Ultimos jugados <span class="gris">></span></p>
+                          <a href="../Juegos/Biblioteca-Mongus.html">Ver biblioteca completa<span class="gris"> > </span></a>
+                        </div>
+            
+                        <div class="juegos-activos">
+                          
+            
+                          <div class="juego" onclick="window.location.href='../juegos/Elden-ring.html'">
+                            <div class="imagen-juego">
+                              <img src="../../static/core/img/Biblioteca/Elden Ring/elden.jpg" alt="elden">
+                            </div>
+                            <div class="display-juego">
+                              <div class="titulo-juego">
+                                <h1>Elden Ring</h1>
+                              </div>
+                              <div class="progreso">
+                                <p><span>Progreso:</span>30%</p>
+                                <div class="porcentaje" style="--wth:30%"></div>
+                              </div>
+                              <div class="ultima-vez">
+                                <p>Última vez: <span class="gris">Hace 23 dias</span></p>
+                                
+                              </div>
+                              <div class="tiempo-jugado">
+                                <p>Tiempo jugado: <span class="gris">20,2 horas</span></p>
+                              </div>
+                            </div>
+                          </div>
+            
+                        </div>
+                      </div> 
+                       <!-- FIN  JUEGOS EN PROGRESO-->
+                </div>
+                
+                <div class="box-actividades">
+                    <div class="mitad1">
+                    
+
+                        <div class="categoria">
+                          <p>Ultimas actividades <span class="categoria-colorear">></span></p>
+                        </div>
+          
+                        <div class="actividad" onclick="window.location.href='../juegos/Elden-ring.html'">
+                          <div class="imagen-actividad">
+                            <img src="../../static/core/img/Biblioteca/Elden Ring/elden.jpg" alt="elden"> 
+                          </div>
+          
+                          <div class="texto-actividad">
+                            <h1>¡NUEVO LOGRO DE <a class="usuario">Mongus</a>!</h1>
+                            <h2>Mohg, el Augurio<h2>
+                            <p>Derrota a Mogh, el Augurio</p>
+                          </div>
+                        </div>
+          
+
+
+
+
+                        <!-- COMIENZA PUBLICACION EN FORO -->
+                        <div class="foro" onclick="window.location.href='../Foro/Hilo-pcs.html'">                
+
+                            <!-- COMIENZA TEXTO PUBLICACION -->
+                            <section class="texto">
+                              <H1>[HILO] ¡PRESENTACIONES DE PC!</H1>
+                              <h2>La mecha:<h2>
+                              <p>
+                                i7 4790<br>
+                                16gb ram ddr3 Vengeance 2400mhz<br>
+                                GTX 1650 de Asus<br>
+                                Cooler Nisuta 120mm<br>
+                                LNZ ZX 650w<br>
+                                Sigan el hilo!!!                 
+                            </section>
+
+                         <!-- FINAL TEXTO PUBLICACION -->
+
+                        </div>
+                    </div>
+                    <!-- FIN PUBLICACION EN FORO -->
+                        
+                </div>
+
+            </div>
+
+        </main>
+      <!-- FIN MID-PAGE -->
+
+
+    </div>
+    <!-- FIN MAQUETADO -->
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- scripts  -->
+
+</body>
+{%endblock%}

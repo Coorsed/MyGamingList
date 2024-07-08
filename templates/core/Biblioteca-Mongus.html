@@ -1,0 +1,56 @@
+{%  extends "core/base.html" %}
+
+{% block content%}
+
+<body>
+    <!-- INICIO MAQUETADO -->
+    <div class="maquetado">
+
+        <!-- COMIENZA MAIN -->
+        <main class="main">
+
+                <div class="bienvenida">
+
+                    <H1>Biblioteca de <span class="usuario">Mongus</span> <span class="gris">></span></H1>
+
+                </div>
+
+                <div class="box-total">
+
+                      <div class="juego" onclick="window.location.href='Elden-ring.html'">
+                        <div class="imagen-juego">
+                          <img src="../../static/core/img/Biblioteca/Elden Ring/elden.jpg" alt="elden">
+                        </div>
+                        <div class="display-juego">
+                          <div class="titulo-juego">
+                            <h1>Elden Ring</h1>
+                          </div>
+                          <div class="progreso">
+                            <p><span>Progreso:</span>30%</p>
+                            <div class="porcentaje" style="--wth:30%"></div>
+                          </div>
+                          <div class="ultima-vez">
+                            <p>Última vez: <span class="gris">Hace 23 dias</span></p>
+                            
+                          </div>
+                          <div class="tiempo-jugado">
+                            <p>Tiempo jugado: <span class="gris">20,2 horas</span></p>
+                          </div>
+                        </div>
+                      </div>
+        
+
+                </div>
+
+            
+             <!-- FIN PRINCIPAL -->
+
+        </main>
+        <!-- FIN MAIN -->
+
+    </div>
+    <!-- FIN MAQUETADO -->
+
+</body>
+{% endblock%}
+          
